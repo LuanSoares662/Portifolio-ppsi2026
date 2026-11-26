@@ -22,6 +22,7 @@
 .perfil img {   
     float: right;
     border-radius: 10px;
+    
 }
 .caixa {
     background-color: white;
@@ -54,9 +55,57 @@ p {
     color: white;
     text-align: center;
     padding: 15px;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .rodape p {
     color: white;
 }
+
+.imagem{
+    display: flex;
+    align-items: center
+    
+}
+
+  @media screen and (min-width: 768px) {
+
+    body {
+        margin: 30px;
+        padding: 10px;
+    }
+
+    .perfil {
+        height: 90px;
+        padding: 20px;
+    }
+
+    .perfil img {
+        width: 60px;
+        height: 70px;
+    }
+
+    .caixa {
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .rodape {
+        padding: 20px;
+    }
+
+ 
+
+ }
