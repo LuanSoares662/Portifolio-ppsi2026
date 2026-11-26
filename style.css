@@ -1,0 +1,62 @@
+ *{
+    margin: 0;
+    padding: 0;
+   
+ }
+
+ body {
+    background-color: #f2f5f8;
+    font-family: Arial;
+    margin: 25px;
+    color: #172033;
+}
+
+.perfil {
+    background-color: white;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 10px;
+}  
+
+.perfil img {   
+    float: right;
+    border-radius: 10px;
+}
+.caixa {
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #24766d;
+    font-size: 11px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 13px;
+}
+
+p {
+    font-size: 12px;
+    color: #596574;
+}
+
+.rodape {
+    background-color: #101a30;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.rodape p {
+    color: white;
+}
