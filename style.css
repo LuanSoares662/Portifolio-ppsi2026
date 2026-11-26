@@ -62,31 +62,29 @@ p {
     color: white;
 }
 
-.imagem{
-    display: flex;
-    align-items: center
-    
-}
+
 
   @media screen and (min-width: 768px) {
 
     body {
         margin: 30px;
-        padding: 10px;
+        padding: 20px;
     }
 
     .perfil {
         height: 90px;
-        padding: 20px;
+        padding: 50px;
     }
 
     .perfil img {
-        width: 60px;
-        height: 70px;
+        width: 105px;
+        height: 125px;
+        
+        
     }
 
     .caixa {
-        padding: 20px;
+        padding: 10px;
         margin-bottom: 15px;
     }
 
